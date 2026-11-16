@@ -1,0 +1,14 @@
+# Build-Ausgaben
+build/
+dist/
+
+# Bibliotheken werden nicht mitversioniert (siehe README)
+lib/*.jar
+
+# IDE / System
+nbproject/private/
+.DS_Store
+
+# Niemals echte Dienstpläne oder erzeugte Kalender committen
+*.pdf
+*.ics
